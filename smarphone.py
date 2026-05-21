@@ -21,4 +21,4 @@ class smartphone:
         print("f Procesador {self.procesador}")
         print("f Bateria {self.bateria}")
         print("f Conectividad {self.conectividad}")
-samsug = smartphone("Samsug","fake S25","black","1GB","6GB","Serie a","1.8 pulgadas","Snapdragon 8 Elite","5000mAh","8g"," Wi-Fi")
+samsug = smartphone("Samsug,","fake S25","black","1GB","6GB","Serie a","1.8 pulgadas","Snapdragon 8 Elite","5000mAh","8g", Wi-Fi")

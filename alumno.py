@@ -10,6 +10,7 @@ class Alumno:
         self.sexo = sexo
         self.nivel_estudio = nivel_estudio 
         self.uniforme = uniforme
+
         print(f" su matricula es {self.matricula}")
         print(f" las materias son{self.materias}")  
         print(f" su nombre es  {self.nombre}") 
@@ -20,4 +21,26 @@ class Alumno:
         print(f"su sexo es {self.sexo}")
         print(f"su nivel de estudio es  {self.nivel_estudio}")    
         print(f"lleva uniforme  {self.unifrome }") 
-mencho = Alumno("1725110433","matematicas","mencho","tics","19","8.0","Masculino","Universiodad","no")
+
+    def acredito(self):
+        print(f"{self.nombre} acredito sus materias")
+
+    def sexo(self):
+        print(f"{self.nombre} es su sexo")
+
+    def calificacion(self):
+        print(f"{self.nombre}tu calificacion es")
+
+    def nivel_estudio(self):
+         print(f"{self.nombre} es tu nivel de estudio")
+        
+    def puntualidad(self):
+         print(f"{self.nombre} llego temprano todo los dias")
+
+mencho = Alumno("1725110433", "matematicas", "mencho", "tics", 19, 8.0, "Masculino", "Universidad", "no")
+
+mencho.acredito()
+mencho.sexo()
+mencho.calificacion()
+mencho.nivel_estudio()
+mencho.puntualidad()
