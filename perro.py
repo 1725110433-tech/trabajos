@@ -1,4 +1,4 @@
-class perro: 
+class Perro: 
     def __init__(self, altura, color, raza, peso, no_patas,
                  no_ojos, color_de_ojos, temperamento, fuerza_de_mordedura, apariencia):
         self.altura = altura
@@ -21,4 +21,26 @@ class perro:
         print("f Temperamento {self. temperamento}")
         print("f Fuerza de Mordedura {self. fuerza_de_mordedura}")
         print("f Apariencia {self. apariencia}")
-perro_beto= perro("80m", "gris", "Pug", "1000kg", "1", "7", "Negro", "malo", "100PSI", "Liso")
+
+    def kilos(self): 
+        print(f"{self.peso} ")
+
+    def amor(self): 
+        print(f"el perro es {self.temperamento}  ")
+
+    def tamanio(self): 
+        print(f"su tamaño es de{self.altura}  ")
+
+    def cruza(self): 
+        print(f"su raza es{self.raza}  ")
+
+    def mordida (self): 
+        print(f"su fuerza de mordida es{self.fuerza_de_mordedura}  ")
+
+pug = Perro("80m", "gris", "Pug", "1000kg", "1", "7", "Negro", "malo", "100PSI", "Liso")
+
+pug.kilos()
+pug.amor()
+pug.tamanio()
+pug.cruza()
+pug.mordida()
