@@ -38,7 +38,7 @@ class banco:
         print(f"{self.no_cliente} hizo inversion ")
 
 
-acme=banco("1000 clientes", "none", "none", "ACME Banking System", "Banco Acme", "1000", "True", "$1,000,000,000", "9am-19pm", "Verde Fosforecente")
+acme=banco("1000 cliente", "none", "none", "ACME Banking System", "Banco Acme", "1000", "True", "$1,000,000,000", "9am-19pm", "Verde Fosforecente")
 
 acme.retiro()
 acme.deposito()
